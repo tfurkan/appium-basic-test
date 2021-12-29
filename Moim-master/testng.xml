@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/taydogmus/IdeaProjects/Moim-master">
+        <classes>
+            <class name="tests.TC01_MobilLoginTests">
+                <methods>
+                    <include name="successLogin"/>
+                    <include name="loginWithOneMethod"/>
+                    <include name="failLogin"/>
+                </methods>
+            </class>
+            <class name="tests.TC02_GenisbantLoginTests">
+                <methods>
+                    <include name="evdeInternetLogin"/>
+                </methods>
+            </class>
+            <class name="tests.TC03_KrediKartiIlePaketYuklemeTest">
+                <methods>
+                    <include name="successPayment"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
